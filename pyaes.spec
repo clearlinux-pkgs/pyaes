@@ -4,7 +4,7 @@
 #
 Name     : pyaes
 Version  : 1.6.1
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/44/66/2c17bae31c906613795711fc78045c285048168919ace2220daa372c7d72/pyaes-1.6.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/44/66/2c17bae31c906613795711fc78045c285048168919ace2220daa372c7d72/pyaes-1.6.1.tar.gz
 Summary  : Pure-Python Implementation of the AES block-cipher and common modes of operation
@@ -54,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1534116362
+export SOURCE_DATE_EPOCH=1534117747
 python3 setup.py build -b py3
 
 %install
